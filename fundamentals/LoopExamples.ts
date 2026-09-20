@@ -12,6 +12,9 @@ let students: { name: string; age: number; isStudent: boolean }[] = [
     { name: "Frank", age: 19, isStudent: true },
 ];
 
+// String s = new String[]{"a", "b", "c"}; // java
+// for (String s : students) { // java
+
 let totalAge: number = 0;
 let totalStudetns: number = students.length;
 // For of loop to iterate over the array of objects

@@ -7,8 +7,9 @@ let cities: Array<string> = ["New York", "Los Angeles", "Chicago"];
 let statesAndCities: { [key: number]: string[] } = {
     1: ["Los Angeles", "San Francisco"],
     2: ["Houston", "Dallas"]
-    // "one" : ["two", "three"]
+    // "one" : ["two", "three"] throws error indicating that the key should be a number, not a string
 };
+// var a:number = 100; // deosn't throw error but it is not recommended to use var in typescript. Use let or const instead
 let myData = [12, true, "Hello there", ["hi", "wassup?"]];
 // const myDataTuple: [number, boolean, string, string[]] = [12, true, "Hello there", ["hi", "wassup?"]];
 
