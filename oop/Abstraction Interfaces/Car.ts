@@ -1,0 +1,8 @@
+import { Engine } from "./Engine";
+
+export interface Car {
+    make: string;
+    model: string;
+    year: number;
+    engine: Engine;
+}

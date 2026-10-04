@@ -1,0 +1,26 @@
+{
+  "name": "typescript-basics",
+  "version": "1.0.0",
+  "description": "Simple typescript course",
+  "homepage": "https://github.com/SiddharthMishra28/Typescript-basics#readme",
+  "bugs": {
+    "url": "https://github.com/SiddharthMishra28/Typescript-basics/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SiddharthMishra28/Typescript-basics.git"
+  },
+  "license": "ISC",
+  "author": "Siddharth Mishra",
+  "type": "commonjs",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "typescript": "^7.0.2"
+  }
+}
