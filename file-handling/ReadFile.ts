@@ -14,6 +14,5 @@ async function readTextFile(filePath: string): Promise<void> {
     }
 }
 
-
 const targetFile = "./information.txt";
 readTextFile(targetFile);
