@@ -1,0 +1,23 @@
+{
+  "name": "studentmanager",
+  "version": "1.0.0",
+  "description": "A simple Typescript command line student management app",
+  "keywords": [
+    "[Typescript",
+    "Course",
+    "Basic",
+    "Project",
+    "101]"
+  ],
+  "license": "ISC",
+  "author": "Siddharth Mishra",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2"
+  }
+}
