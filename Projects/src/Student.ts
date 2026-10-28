@@ -1,8 +1,0 @@
-export interface Student {
-    id: number;
-    name: string;
-    age: number;
-    grade: string;
-    email: string;
-    phone: string;
-}
